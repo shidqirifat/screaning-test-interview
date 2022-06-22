@@ -4,7 +4,7 @@ export default function InputNumber({ onChange, counter }) {
     return (
         <input
             className="input-number"
-            type="number"
+            type="text"
             value={counter}
             onChange={onChange}
         />

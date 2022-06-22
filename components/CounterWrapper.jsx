@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import InputNumber from "./InputNumber";
-// import PlusIcon from "./images/plus.svg";
+import Image from "next/dist/client/image";
 
 export default function CounterWrapper({
     counter,
@@ -12,11 +12,21 @@ export default function CounterWrapper({
     return (
         <div className="counter">
             <Button onClick={onDecrease}>
-                <img src="/images/minus.svg" alt="minus" />
+                <Image
+                    width={12}
+                    height={12}
+                    src="/images/minus.svg"
+                    alt="minus"
+                />
             </Button>
             <InputNumber counter={counter} onChange={onChange} />
             <Button onClick={onIncrease}>
-                <img src="/images/plus.svg" alt="plus" />
+                <Image
+                    width={12}
+                    height={12}
+                    src="/images/plus.svg"
+                    alt="plus"
+                />
             </Button>
         </div>
     );

@@ -41,6 +41,7 @@ a {
   align-items: center;
   justify-content: center;
   border: none;
+  position: relative;
 }
 .input-number {
   background: #FFFFFF;
