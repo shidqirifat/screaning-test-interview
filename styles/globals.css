@@ -49,6 +49,7 @@ a {
   border-radius: 8px;
   color: #000;
   text-align: center;
+  width: 80px;
 }
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
